@@ -1,34 +1,97 @@
-body, html{
+body,
+html {
     background-color: #d6d6d6;
     margin: 0px;
     padding: 0;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container {
     width: 100%;
     background-color: rgb(226, 241, 255);
     height: 100%;
-    display: grid; 
-    grid-template-columns:80% 20%; 
-    grid-template-rows:70px auto 100px; 
-    grid-template-areas:'header header'
-                        'main sidebar'
-                        'footer footer'; 
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: 'header header'
+        'main sidebar'
+        'footer footer';
 }
-header{
-    background-color: #a4a4cc;
+
+header {
+    background-color: #ffffff;
     grid-area: header;
 }
-main{
+
+main {
     background-color: #00ab00;
     grid-area: main;
 }
-aside{
+
+aside {
     background-color: #acdd;
     grid-area: sidebar;
 }
-footer{
+
+footer {
     background-color: #004222;
     grid-area: footer;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.item_menu {
+    list-style: none;
+    padding-left: 10%;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.img_header img {
+    width: 100px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.tipos {
+    font-size: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.conteudo {
+    display: none;
+    /*esconde item da lista*/
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    /*Largura minima que um elemento pode ter*/
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /*Efeito da borda*/
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.conteudo a {
+    padding: 12px 16px;
+    display: block;
+    /*Para não deixar tudo junto já q a div mae está como displey flex*/
+}
+
+.conteudo a:hover {
+    background-color: #ddd;
+}
+
+.item_menu:hover .conteudo {
+    display: block;
+    /*Para aparecer o conteudo dentro de tipos*/
 }
