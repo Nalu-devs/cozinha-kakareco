@@ -16,7 +16,7 @@ body{
     padding: 2%;
     margin-left: 0.0999%;
     flex-wrap: wrap;
-    background-color:rgba(255, 255, 255, 0.6);
+    background-color:rgba(255, 255, 255, 0.4);
     transition: 0.7s ease;
     border-radius: 10px;
     cursor: default;/*Cursor padrão*/
@@ -52,6 +52,7 @@ button:hover{
 .logo{
     margin-left: 43%;
 }
+
 a{
     color: #000;
     text-decoration: none;
@@ -80,4 +81,13 @@ a{
 }
 .criar_conta a{
     color: blue;
+}
+.senha{
+    color: blue;
+}
+.criar_conta a:hover{
+    color: rgb(0, 153, 255);
+}
+.senha:hover{
+    color: rgb(0, 153, 255);
 }
