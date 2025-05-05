@@ -7,6 +7,7 @@ html {
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: #d6d6d6;
 }
 
 .conteudo {
@@ -15,12 +16,14 @@ html {
     height: 80%;
     width: auto;
     border-radius: 20px;
+    border: none;
 }
 
 .mensagem {
     width: 40%;
     text-align: center;
     background-color: #faa307;
+    border-radius: 20px;
     border: 1px solid #faa307;
 }
 
@@ -32,6 +35,7 @@ html {
     width: 80%;
     display: block;
     background-color: #f8dda4;
+    border-radius: 20px;
 }
 
 .email label {
@@ -50,17 +54,48 @@ html {
     font-weight: 500;
     margin-top: 5px;
     margin-left: 20px;
+    background-color: #d6d6d6;
 }
 
-.botao button {
+.link button {
     width: 80%;
     height: 40px;
     margin-left: 33px;
-    margin-top: 30%;
+    margin-top: 2%;
     border-radius: 7px;
     color: rgb(0, 0, 0);
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    background-color: #d6d6d6;
+
 }
 
+.link button:hover{
+    background-color: #faa307;
+    border-radius: 10px;
+}
+.voltar button{
+    width: 80%;
+    height: 40px;
+    margin-left: 33px;
+    margin-top: 20%;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    background-color: #d6d6d6;
+
+}
+.voltar button:hover{
+    background-color: #faa307;
+    border-radius: 10px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
 h1 {
     text-align: center;
     margin-top: 30px;
