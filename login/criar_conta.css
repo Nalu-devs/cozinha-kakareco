@@ -42,6 +42,10 @@ button{
     margin-left: 30%;
     margin-top: 20px;
     padding: 7px;
+    transition: all 0.4s ease;
+}
+button:hover{
+    background-color: #fcb736;
 }
 .rodape{
     background-color: rgb(216, 255, 242);
