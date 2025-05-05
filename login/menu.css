@@ -23,7 +23,8 @@
 
 .item_menu:hover {
     background-color: #fb8500;
-    margin-top: 20px; /*indica que quando o mouse passar por cima ele vai se juntar a margem de cima por ser 0*/
+    margin-top: 20px;
+    /*indica que quando o mouse passar por cima ele vai se juntar a margem de cima por ser 0*/
     border-radius: 30px;
 }
 
@@ -83,4 +84,13 @@ a {
 .item_menu:hover .conteudo {
     display: block;
     /*Para aparecer o conteudo dentro de tipos*/
+}
+
+.pesquisa input {
+    display: block;
+    margin-left: 12.3%;
+    width: 85.5%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid;
 }

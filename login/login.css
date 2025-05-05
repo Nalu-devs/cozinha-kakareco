@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,34 +9,40 @@ body{
     background-image: url(fundo.png);
     background-size: cover;
 }
-.mensagem{
+
+.mensagem {
     margin-top: 2%;
     width: 30%;
     height: 85%;
     padding: 2%;
     margin-left: 0.0999%;
     flex-wrap: wrap;
-    background-color:rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     transition: 0.7s ease;
     border-radius: 10px;
-    cursor: default;/*Cursor padrão*/
+    cursor: default;
+    /*Cursor padrão*/
 }
-.mensagem:hover{
+
+.mensagem:hover {
     border-radius: 30px;
     background-color: rgb(255, 255, 255)
 }
-.conteudo{
+
+.conteudo {
     margin-right: 15%;
     background-color: #fff;
     width: 35%;
     height: 100%;
     padding: 2%;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
 }
-button{
+
+button {
     width: 100%;
     height: 40px;
     background-color: #fb8500;
@@ -44,30 +50,35 @@ button{
     transition: 0.7s ease;
     font-weight: 0.9s ease;
 }
-button:hover{
+
+button:hover {
     background-color: #ffa743;
     border-radius: 10px;
     font-weight: bold;
 }
-.logo{
+
+.logo {
     margin-left: 43%;
 }
 
-a{
+a {
     color: #000;
     text-decoration: none;
     margin-bottom: 20px;
 }
-.login{
-    font-size:35px;
+
+.login {
+    font-size: 35px;
     text-align: center;
     margin-bottom: 3%;
-    cursor:default;
+    cursor: default;
 }
-.caixa_entrada label{
+
+.caixa_entrada label {
     font-size: 17px;
 }
-.campo_entrada input{
+
+.campo_entrada input {
     width: 100%;
     border-radius: 7px;
     border: 1px solid;
@@ -75,19 +86,24 @@ a{
     margin-top: 5px;
     box-sizing: border-box;
 }
-.criar_conta{
+
+.criar_conta {
     text-align: center;
     margin-bottom: 10%;
 }
-.criar_conta a{
+
+.criar_conta a {
     color: blue;
 }
-.senha{
+
+.senha {
     color: blue;
 }
-.criar_conta a:hover{
+
+.criar_conta a:hover {
     color: rgb(0, 153, 255);
 }
-.senha:hover{
+
+.senha:hover {
     color: rgb(0, 153, 255);
 }

@@ -71,11 +71,12 @@ html {
 
 }
 
-.link button:hover{
+.link button:hover {
     background-color: #faa307;
     border-radius: 10px;
 }
-.voltar button{
+
+.voltar button {
     width: 80%;
     height: 40px;
     margin-left: 33px;
@@ -88,14 +89,17 @@ html {
     background-color: #d6d6d6;
 
 }
-.voltar button:hover{
+
+.voltar button:hover {
     background-color: #faa307;
     border-radius: 10px;
 }
-a{
+
+a {
     color: #000;
     text-decoration: none;
 }
+
 h1 {
     text-align: center;
     margin-top: 30px;

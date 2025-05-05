@@ -1,40 +1,48 @@
-body, html{
+body,
+html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #d6d6d6;
     margin: 0 auto;
     padding: 0;
-    height:100%;
+    height: 100%;
     align-content: center;
     justify-items: center;
 }
-.conteudo{
+
+.conteudo {
     border: 1px solid;
     border-radius: 10px;
     width: 30%;
     background-color: #f0f0f0;
 }
-h1, p{
+
+h1,
+p {
     text-align: center;
 }
-label{
+
+label {
     display: block;
     padding: 5px;
     margin-left: 10px;
 }
-input{
+
+input {
     padding: 5px;
     margin: 5px;
     width: 90%;
     background-color: #dddddd;
     border: 1px solid;
-    border-radius:10px;
+    border-radius: 10px;
     margin-left: 10px;
 }
-button a{
+
+button a {
     color: #000;
     text-decoration: none;
 }
-button{
+
+button {
     width: 40%;
     border-radius: 20px;
     border: none;
@@ -44,10 +52,12 @@ button{
     padding: 7px;
     transition: all 0.4s ease;
 }
-button:hover{
+
+button:hover {
     background-color: #fcb736;
 }
-.rodape{
+
+.rodape {
     background-color: rgb(216, 255, 242);
     height: 30px;
     border-radius: 10px;

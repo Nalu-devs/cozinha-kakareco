@@ -12,7 +12,7 @@ html {
     background-color: rgb(226, 241, 255);
     height: 100%;
     display: grid;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 150px auto 100px;
     grid-template-areas: 'header header'
         'main main'
         'footer footer';
