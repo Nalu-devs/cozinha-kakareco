@@ -21,13 +21,15 @@
     margin-left: 25px;
 }
 
-.item_menu:hover {
+.item_menu:hover .tipos{
     background-color: #fb8500;
-    margin-top: 20px;
-    /*indica que quando o mouse passar por cima ele vai se juntar a margem de cima por ser 0*/
     border-radius: 30px;
 }
-
+.item_menu:hover{
+    margin-top: 20px;
+    background-color: #fb8500;
+    border-radius: 30px;
+}
 img {
     width: 100px;
     height: 100px;
@@ -46,12 +48,9 @@ a {
     font-weight: bold;
     background-color: #ffaa00;
     overflow: hidden;
+    transition: 0.3s;
 }
 
-.tipos:hover {
-    background-color: #fb8500;
-    border-radius: 10px;
-}
 
 .tipos::after {
     content: '\25BE';
@@ -89,7 +88,7 @@ a {
 .pesquisa input {
     display: block;
     margin: auto;
-    width: 80%;
+    width: 90%;
     padding: 5px;
     border-radius: 10px;
     border: 1px solid;
