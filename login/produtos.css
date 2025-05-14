@@ -6,3 +6,30 @@ html {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 100%;
+    background-color: rgb(226, 241, 255);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 150px auto 100px;
+    grid-template-areas: 'header header'
+        'main main'
+        'footer footer';
+}
+
+header {
+    background-color: #ffffff;
+    grid-area: header;
+}
+
+main {
+    background-color: #ffffff;
+    grid-area: main;
+}
+
+
+footer {
+    background-color: #ffaa00;
+    grid-area: footer;
+}

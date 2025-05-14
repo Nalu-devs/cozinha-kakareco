@@ -9,7 +9,6 @@ html {
 
 .container {
     width: 100%;
-    background-color: rgb(226, 241, 255);
     height: 100%;
     display: grid;
     grid-template-rows: 150px auto 100px;
@@ -24,7 +23,6 @@ header {
 }
 
 main {
-    background-color: #ffffff;
     grid-area: main;
 }
 
