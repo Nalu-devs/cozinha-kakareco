@@ -28,8 +28,9 @@ main {
 
 
 footer {
-    background-color: #ffaa00;
     grid-area: footer;
+    margin-left: 6%;
+    text-align: center;
 }
 .todos{
     margin-left: 120px;
